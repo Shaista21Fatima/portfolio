@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f9fafb;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  background: linear-gradient(135deg, #1976d2, #0d47a1);
+  color: white;
+  text-align: center;
+  padding: 50px 20px 60px;
+  position: relative;
+}
+
+.header h1 {
+  margin: 0;
+  font-weight: 600;
+  font-size: 2.8rem;
+}
+
+.subtitle {
+  font-weight: 300;
+  font-size: 1.2rem;
+  margin-top: 8px;
+}
+
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid white;
+  margin-top: 20px;
+  object-fit: cover;
+}
+
+h2 {
+  color: #0d47a1;
+  font-weight: 600;
+  border-bottom: 3px solid #1976d2;
+  padding-bottom: 5px;
+  margin-top: 40px;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.project {
+  background: white;
+  padding: 15px 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.project h3 {
+  margin-top: 0;
+  color: #1565c0;
+}
+
+.project p {
+  margin: 8px 0;
+}
+
+.footer {
+  text-align: center;
+  padding: 15px 0;
+  background-color: #0d47a1;
+  color: white;
+  margin-top: 60px;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 600px) {
+  .header h1 {
+    font-size: 2rem;
+  }
+  .profile-pic {
+    width: 80px;
+    height: 80px;
+  }
+}
+
